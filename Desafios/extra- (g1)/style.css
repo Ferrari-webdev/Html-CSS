@@ -1,0 +1,17 @@
+@charset "UTF-8";
+:root{
+    --cor1:#659BFF;
+    --cor2:#C4170C;
+    --cor3:#CA3800;
+    --cor4:#FF6943;
+    --cor5:#6BBCBB;
+}
+html{
+    height: 100%}
+.menu .submenu {
+    display: none;
+}
+
+.menu:hover .submenu {
+    display: block;
+}
