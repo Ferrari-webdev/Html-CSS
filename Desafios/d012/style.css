@@ -1,4 +1,33 @@
 @charset "UTF-8";
+@media (max-width: 768px) {
+  body { font-size: 14px; }
+}
+.passion-one-regular {
+  font-family: "Passion One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.passion-one-bold {
+  font-family: "Passion One", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.passion-one-black {
+  font-family: "Passion One", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+.sriracha-regular {
+  font-family: "Sriracha", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+:root{
+    --fonte1:'Passion One';
+    --fonte2:'Sriracha';
+}
 *{
     margin: 0px;
 }
@@ -20,5 +49,17 @@ header>p{
     padding:5px;
 }
 main{
-    display: ;
+    display: block;
+}
+article{
+    height: 100%;
+    font-family: var(--fonte2);
+}
+article p{
+    padding:20px;
+    text-align: justify;
+    width: 40%;
+}
+article.estrofe2{
+
 }
